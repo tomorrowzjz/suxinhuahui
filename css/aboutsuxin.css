@@ -1,0 +1,23 @@
+section .top{
+    height: auto;
+    width: 100%;
+}
+section .top img{
+    width: 100%;
+    height: 100%;
+}
+section .bottom .shang p{
+    text-align: center;
+}
+section .bottom .shang p:first-child{
+    margin-bottom: 10px;
+}
+section .bottom .shang p span{
+    font-size: 16px;
+    line-height: 32px;
+    color: #2a333c;
+}
+section .bottom .xia{
+    text-align: center;
+    margin: 20px auto;
+}

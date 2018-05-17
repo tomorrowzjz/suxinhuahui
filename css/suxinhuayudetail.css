@@ -1,0 +1,128 @@
+.content{
+    background-color: #F1F1F1;
+}
+.content .top{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+}
+ .content .top h1{
+    color:#F67A82 ;
+     font-weight: normal;
+     font-size: 30px;
+ }
+.content .bottom{
+    display: flex;
+
+}
+.content .bottom .left{
+    float: left;
+    width: 874px;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.content .bottom .left .page .pagelist{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.content .bottom .left .page .pagelist li{
+    border-radius: 22px;
+    border: 1px solid #cfdee8;
+    padding: 10px;
+}
+.content .bottom .left .page .pagelist li a{
+    color:#76838f;
+}
+.content .bottom .left .page .pagelist li a span{
+    color:#76838f;
+}
+.content .bottom .left .picTop h4 a{
+    font-size: 32px;
+    font-weight: normal;
+}
+.content .bottom .left .picTop h4{
+    padding-top: 24px;
+}
+.content .bottom .left .picTop .info{
+    border-bottom: 1px solid #eee;
+    padding-bottom: 24px;
+    padding-top: 10px;
+}
+.content .bottom .left .picTop .desc{
+    padding: 20px 0;
+    line-height: 1.8;
+    font-size: 18px;
+    font-weight: 300;
+    color: #222;
+}
+.content .bottom .left .itemlist .item{
+    margin-bottom: 20px;
+}
+.content .bottom .left .itemlist .item:nth-last-child(1){
+    margin-bottom: 110px;
+}
+
+.content .bottom .left .itemlist .item{
+    margin-bottom: 20px;
+}
+
+.content .bottom .rightsidebar{
+    flex-grow: 1;
+    padding: 0 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    margin-left: 20px;
+    height: 356px;
+}
+.content .bottom .rightsidebar .shang input{
+    width: 100%;
+    border-radius: 18px;
+    height: 36px;
+    outline: none;
+    border: 1px solid #f5f5f5;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.content .bottom .rightsidebar .shang input:focus{
+    border: 1px solid #62a8ea;
+}
+.content .bottom .rightsidebar .shang{
+    padding: 20px 0;
+    border-bottom: 1px solid #f5f5f5;
+}
+.content .bottom .rightsidebar .xia h3{
+    margin: 20px auto;
+    font-size: 18px;
+    font-weight: 300;
+}
+.content .bottom .rightsidebar .xia .sitemlist{
+    border: 1px solid #eee;
+    margin-bottom: 20px;
+}
+.content .bottom .rightsidebar .xia .sitemlist li{
+    width: 100%;
+    height: 44px;
+    border-bottom: 1px solid #eee;
+}
+.content .bottom .rightsidebar .xia .sitemlist li a{
+    display: block;
+    line-height: 44px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+/*
+.content .bottom .rightsidebar .xia .sitemlist li:nth-child(3){
+    margin-bottom: 20px;
+}*/
+.content .bottom .rightsidebar .xia p a{
+    font-size: 16px;
+    color: #2a333c;
+    display: block;
+    border-top: 1px solid #eee;
+    padding: 20px 0;
+}

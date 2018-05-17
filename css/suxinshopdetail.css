@@ -1,0 +1,126 @@
+.content{
+    background-color: #F1F1F1;
+}
+.main{
+    width: 1170px;
+    margin: 0 auto;
+}
+.content .top{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+.content .top span{
+    color: #62a8ea;
+}
+.content .main .middle{
+    overflow: hidden;
+    background-color: #fff;
+    padding: 32px 75px;
+    box-sizing: border-box;
+}
+.content .main .middle .mleft{
+    width: 50%;
+    float: left;
+    position: relative;
+}
+.content .main .middle .mleft .shang img{
+    display: block;
+    margin: 0 auto;
+}
+.content .main .middle .mleft .xia{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-top: 12px;
+}
+.content .main .middle .mleft .xia li{
+    float: left;
+    overflow: hidden;
+    margin-left: 12px;
+    padding: 0 auto;
+}
+.content .main .middle .mleft .xia li:nth-child(1){
+    margin-left: 0;
+}
+.content .main .middle .mleft .xia li a img{
+    display: block;
+    /*margin: 0 auto;*/
+}
+
+.content .main .middle .mleft .imgs1{
+    width: 24px;
+    height: 48px;
+    background: url("../img/icon-arrowbtn.png");
+    background-position: 23px 0;
+    position: absolute;
+    top:150px;
+    left: 0;
+}
+.content .main .middle .mleft .imgs2{
+    width: 24px;
+    height: 48px;
+    background: url("../img/icon-arrowbtn.png");
+    background-position: 23px -50px;
+    position: absolute;
+    top:150px;
+    right: 0;
+}
+.content .main .middle .mright{
+    width: 50%;
+    float: left;
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+.content .main .middle .mright h1{
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.content .main .middle .mright p.desc{
+    margin: 8px 0;
+    color: #5e7387;
+}
+.content .main .bottom{
+    margin-top: 14px;
+    overflow: hidden;
+}
+.content .main .bottom .zuo{
+    width: 855px;
+    float: left;
+    padding: 30px;
+    box-sizing: border-box;
+    background: #fff;
+    margin-bottom: 28px;
+}
+.content .main .bottom .zuo .detailinfo{
+    height: 44px;
+    border-bottom: 1px solid #f5f5f5;
+    margin-bottom: 30px;
+}
+.content .main .bottom .zuo .detailinfo li a{
+    width: 98px;
+    height: 44px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    display: block;
+
+}
+.content .main .bottom .zuo .detailinfo li.active a{
+    border-bottom: 1px solid #62a8ea;
+    color: #62a8ea;
+}
+.content .main .bottom .you{
+    width: 210px ;
+    float: right;
+    background: #fff;
+    padding: 30px;
+
+}
+.content .main .bottom .you h4{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
